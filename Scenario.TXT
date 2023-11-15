@@ -1,0 +1,14 @@
+A goal oriented robot
+Scenario description for teachers
+A goal-oriented robot
+Step 1: The x and y setters must be private
+EXIST;METHOD;setXPosition;The x setter must exist
+PRIVATE;METHOD;setXPosition;The x setter must be private
+EXIST;METHOD;setYPosition;The y setter must exist
+PRIVATE;METHOD;setYPosition;The y setter must be private
+
+Step 2: The move method must be defined
+EXIST;METHOD;move;A method whose name is 'move'is defined
+TYPE;METHOD;move;The move() return type is void;void
+PUBLIC;METHOD;move;The method whose name is 'move'is public
+SIGNATURE;METHOD;move;The getColourBody() method has no attribute;LIST;
